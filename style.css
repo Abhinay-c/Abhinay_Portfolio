@@ -86,7 +86,6 @@ section{
     margin-right: 10vw;
 }
 .text_container p{
-    -webkit-text-stroke: 0.1px black;
     font-size: 1vw;
     font-weight: 400;
     color: #f2f2f2;
@@ -305,7 +304,7 @@ footer a{
     }
     .text_container{
         width: 100%;
-        padding: 10vw 5vw;
+        padding: 10vw 5vw 20vw 5vw;
         z-index: 100;
     }
     .text_container h2{
