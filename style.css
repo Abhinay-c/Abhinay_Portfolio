@@ -223,7 +223,7 @@ section{
 }
 .icons .fa:hover{
     color: #007BFF;
-    transform: translateX(-8vw);   
+    transform: translateX(-9vw);   
 }
 .icons .fa span{
     position: relative;
