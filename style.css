@@ -86,6 +86,7 @@ section{
     margin-right: 10vw;
 }
 .text_container p{
+    -webkit-text-stroke: 0.1px black;
     font-size: 1vw;
     font-weight: 400;
     color: #f2f2f2;
