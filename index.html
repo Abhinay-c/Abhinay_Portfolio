@@ -10,17 +10,19 @@
 <body>
     <input type="checkbox" id="check">
     <section>
+        <!--------- Navigation bar --------->
         <div class="navbar">
             <div class="logo">LOGO</div>
             <ol class="menuitems">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#container skills">SKILLS</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">MORE</a></li>
+                <li><a href="#Myskill">SKILLS</a></li>
+                <li><a href="#MyProjects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ol>
             <label for="check" class="fa fa-bars"></label>
         </div>
 
+        <!--------- Home --------->
         <div class="container">
             <div class="text_container">
                 <h2>Digital<br>Graphy</h2>
@@ -34,7 +36,9 @@
                 </div>
             </div>
         </div>
-        <div class="container skills">
+
+        <!--------- My Skills --------->
+        <div class="container skills" id="Myskill">
             <h2>My Skills</h2>
         </div>
         <div class="container skills">
@@ -47,14 +51,53 @@
                 <div class="btnskill">CSS</div>
             </div>
         </div>
+
+        <div class="container Projects" id="MyProjects">
+            <h2>My Projects</h2>
+        </div>
+        <div class="container Projects">
+            <div class="Projects_list">
+                <div class="prjt">
+                    <h3>Hostel Management System</h3>
+                    <hr>
+                    <p>A <b>Relational Database Management System</b> to  provide a centralized system for managing hostel-related data. It aims to simplify tasks such as managing student records, room allocations, maintenance requests, and overall hostel administration.</p>
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="prjt">
+                    <h3>INCEEE-2023 Conference website</h3>
+                    <hr>
+                    <p>Designed a website for the 3rd International New Frontiers in Chemical, Energy and Environmental Engineering (INCEEE - 2023) Conference using bootstrap template for <b>Chemical Engineering Department, NIT Warangal</b>.</p>
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="prjt">
+                    <h3>Google Homepage Clone</h3>
+                    <hr>
+                    <p>Designed a fully responsive clone webpage of Google homepage with working search bar</p>
+                    <p><b>Technologies used:</b> HTML, CSS</p>
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="prjt">
+                    <h3>Hostel Management System</h3>
+                    <hr>
+                    <p>A Relational Database Management System to  provide a centralized system for managing hostel-related data</p>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!--------- Social links --------->
         <div class="icons">
             <a href="#"><i class="fa fa-linkedin"><span>linkedin</span></i><br></a>
             <a href="#"><i class="fa fa-github"><span>github</span></i><br></a>
             <a href="#"><i class="fa fa-instagram"><span>insta</span></i><br></a>
         </div>
-        <footer>
-            <h5>Get in touch</h5>
-        </footer>
+
     </section>
 </body>
+
+<!--------- Footer --------->
+<footer id="contact">
+    <h5>Get in touch</h5>
+</footer>
+
 </html>
